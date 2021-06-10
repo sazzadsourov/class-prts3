@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.head_section{
+	background-color: cyan;
+}
+.section{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: blue;
+	color: red;
+	text-align: center;
+	margin: 0 223px;
+}
+.main_secton{
+	background-color: #6B6C63;
+}
+aside{
+	background-color: darkblue;
+	width: 35%;
+	float: right;
+	color: white;
+	
+}
+.sub_main_section{
+	background-color: #205135;
+}
+.last_section{
+	background-color: #51203F;
+
+}
+footer{
+	background-color: black;
+	color: white;
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 15px;
+
+}

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+
+<body>
+<div class="head_section">
+	<div class="section"><h1>the html element</h1></div>
+	<h1>The mark element</h1>
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+<h1>The meter element</h1>
+
+<p>The meter element is used to display a gauge:</p>
+
+<label for="disk_c">Disk usage C:</label>
+<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+<label for="disk_d">Disk usage D:</label>
+<meter id="disk_d" value="0.6">60%</meter>
+<h1>this is a nav elemwnt</h1>
+<nav>
+<a href="">name</a> |
+<a href="">department</a> |
+<a href="">shift</a> |
+<a href="">roll</a>
+</nav>
+<h1>The ol element</h1>
+
+<ol>
+  <li>asif</li>
+  <li>sourov</li>
+  <li>mim</li>
+</ol>
+
+<h1>The optgroup element</h1>
+  <label for="cars">Choose a car:</label>
+  <select name="cars" id="cars">
+    <optgroup label="Swedish Cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+    </optgroup>
+    <optgroup label="German Cars">
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </optgroup>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+<h1>The output element</h1>
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+<input type="range" id="a" value="50">
++<input type="number" id="b" value="25">
+=<output name="x" for="a b"></output>
+</form>
+<h1>The param element</h1>
+
+<object data="audio/bird.mp3">
+<param name="autoplay" value="true">
+</object>
+<h1>the picture element<h1>
+<picture>
+	<img src="image/sea.jpg" alt="sea">
+</picture>
+<h1>The pre element</h1>
+
+<pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre>
+
+<h1>The progress element</h1>
+
+<label for="file">Downloading progress:</label>
+<progress id="file" value="64" max="100"> 64% </progress>
+<h1>The q element</h1>
+
+<p>bangladesh: 
+<q>the name of our country is bangladesh.</q>
+i love my country.</p>
+<h1>The samp element</h1>
+
+<p>Message from my computer:</p>
+
+<p><samp>File not found.<br>Press F1 to continue</samp></p>
+<h1>The section element</h1>
+
+<section>
+  <h2>WWF History</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum natus aut dignissimos placeat, voluptates maxime quod quae, magni in sunt, modi ducimus. Expedita, quo quibusdam voluptate, molestias rem cupiditate quos libero ducimus, modi eaque, eveniet qui ut. Error maiores doloribus molestias laboriosam distinctio accusantium. Laudantium, vel minima velit nihil quae?</p></section>
+
+<section>
+  <h2>WWF's Symbol</h2>
+  <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+  <aside>
+  	<h1 style="text-align: center; text-transform: uppercase; margin-bottom: 8px; color: red; ">the aside element</h1>
+  	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, non suscipit recusandae iusto nihil quaerat nemo ipsum maxime eos veritatis enim ratione nisi sint odit quibusdam architecto, saepe aliquid, voluptate. Accusantium labore at explicabo, necessitatibus numquam iusto, maiores, accusamus debitis cum eaque aperiam, rem nisi itaque incidunt sint tempora eius? Officia culpa qui accusamus sit rem, suscipit voluptates earum quo error dolorum deserunt rerum laboriosam neque vero impedit aliquam architecto.</p></aside>
+</section>
+<h1>The small element</h1>
+
+<p>This is some normal text.</p>
+<p><small>This is some smaller text.</small></p>
+<h1>The sub and sup elements</h1>
+
+<p>This text contains <sub>subscript</sub> text.</p>
+<p>This text contains <sup>superscript</sup> text.</p>
+<h1>The summary element</h1>
+
+<details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+<<h1>The svg element</h1>
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+<h1>The u element</h1>
+
+<p>This is some <u>mispeled</u> text.</p>
+<h1>the video element</h1>
+<video controls >
+	<source src="video/nature.mp4" type="video/mp4">
+	 Your browser does not support the video tag.
+</video>
+
+</div>
+
+<!--boolean atribute-->
+
+<div class="main_secton">
+<div class="section"><h1>the boolean atribute</h1></div><hr>
+<h1>controls atribute</h1>
+<audio controls>
+	<source src="audio/bird.mp3">
+</audio>
+<h1>readonly atribute</h1>
+<input type="text" readonly >
+
+<h1>the checkbox atribute</h1>
+<form action="">
+	<input type="checkbox" name="car" value="car">
+	<label for="car">I have a new car</label>
+</form><h1>the disable atribute</h1>
+<form action="">
+	<label for="fname">First Name</label>
+	<input type="text" id="fname" placeholder="Enter your first name"><br>
+	<label for="lname">Last Name</label>
+	<input type="text" id="lname" placeholder="Enter your last name" disabled><br>
+	<input type="submit" value="submit">
+</form>
+<h1>the default atribute</h1>
+<video controls>
+	<source src="video/nature.mp4" type="video/mp4">
+	 <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English" default>
+  <track src="subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+</video>
+<h1>the selected atribute</h1>
+<form action="">
+	<label for="car">choose a car : </label>
+	<select name="car" id="car">
+		<option value="volvo">volvo</option>
+		<option value="volvo">noha</option>
+		<option value="volvo">premio</option>
+		<option value="allin" selected>allin</option>
+		</select><br>
+<input type="submit" value="submit">
+</form>
+<h1>the hidden atribute</h1>
+<p hidden>thanks for visit my front side</p>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Atque ea recusandae quidem, laboriosam blanditiis, dignissimos?</p>
+<p><strong>note:</strong> The hidden atribute is not supported in this page.</p>
+<h1>the novalidate atribute</h1>
+<form action="" novalidate>
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <input type="submit">
+</form>
+
+<p><strong>Note:</strong> The novalidate attribute of the form tag is not supported in Safari 10 (or earlier).</p>
+
+<h1>the autoplay atribute</h1>
+<audio controls autoplay>
+	<source src="audio/bird.mp3" type="audio/mp3" >
+</audio>
+<h1>the autofocus atribute</h1>
+<form action="">
+	<label for="fname">First Name</label>
+	<input type="text" id="fname" placeholder="Enter your first name" autofocus><br>
+	<label for="lname">Last Name</label>
+	<input type="text" id="lname" placeholder="Enter your last name" disabled><br>
+	<input type="submit" value="submit">
+</form>
+<h1>the muted atribute</h1>
+<audio controls muted>
+	<source src="audio/bird.mp3" type="audio/mp3">
+</audio>
+<h1>the ismap atribute</h1>
+<a href="">
+	<img src="image/sea.jpg" alt="river" ismap>
+</a>
+<h1>the loop atribute</h1>
+<audio controls loop>
+	<source src="audio/bird.mp3" type="audio/mp3">
+</audio>
+<h1>the multiple atribute</h1>
+<label for="bike">choose a bike</label>
+	<select name="bike" id="bike" multiple>
+		<option value="yamaha">yamaha</option>
+		<option value="yamaha">pulsar</option>
+		<option value="yamaha">honda</option>
+		<option value="yamaha">hero</option>
+	</select>
+	<h1>the open atribute</h1>
+	<details open>
+		<summary>about bangladesh</summary>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam repudiandae ex maxime quae quisquam nostrum architecto qui optio incidunt aut laudantium quam nobis fugiat, placeat exercitationem ipsa, explicabo quibusdam minima!</p>
+	</details>
+	<h1>the required atribute</h1>
+	<form action="">
+		<textarea name="" id="" cols="30" rows="5" required></textarea><br>
+		<input type="submit" value="submit">
+	</form>
+<h1>The ol reversed attribute</h1>
+
+<ol reversed>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+</ol>
+
+<p><strong>Note:</strong> The reversed attribute of the ol tag is not supported in Edge prior version 79.</p>
+</div>
+
+<!--semantic element-->
+
+<div class="sub_main_section">
+<div class="section"><h1>the semantic element</h1></div><hr>
+<h1>the aticle element</h1>
+<article>
+	<h2>Bangladesh</h2>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro doloremque id non. Exercitationem mollitia, nam facere commodi, dolorum obcaecati debitis enim eveniet velit illum itaque distinctio inventore quibusdam et libero.</p>
+</article>
+<h1>the aside element</h1>
+<h3>beauty of bangladesh</h3>
+<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Nostrum eaque suscipit rerum veritatis iure dicta modi tenetur reprehenderit? Quasi, blanditiis!</p>
+<h1>the detils element</h1>
+<details>
+	<summary>lorem</summary>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatum, saepe optio voluptatibus neque sequi veritatis! Saepe repellat dolorum omnis perspiciatis architecto sapiente in officiis quidem ducimus. Facere, dicta veniam!</p>
+</details>
+<h1>the figure/figcaption</h1>
+<figure>
+	<img src="image/sea.jpg" alt="sunset"><br>
+	<figcaption> fig-1: some people walking in the river side.</figcaption>
+</figure>
+
+<h1>the main element</h1>
+<main>
+	<h2>bangladesh</h2>
+	<p>Bangladesh is a country in South Asia. It is next to the North-east Indian provincial regions of India, which converges with Southeast Asia to the east. Its full name is The People's Republic of Bangladesh. The capital and the largest city is Dhaka</p>
+	<h2>pakistan</h2>
+	<p>Pakistan, officially the Islamic Republic of Pakistan, is a country in South Asia. It is the world's fifth-most populous country with a population exceeding 225.2 million, and has the world's second-largest Muslim population.</p>
+	<h1>india</h1>
+	<p>India, country that occupies the greater part of South Asia. It is a constitutional republic that represents a highly diverse population consisting of tho</p>
+</main>
+<h1>the mark element</h1>
+<p>bangladesh is a <mark>small</mark> country</p>
+<h1>the nav element</h1>
+<nav>
+	<a href="">computer</a>
+	<a href="">eletrical</a>
+	<a href="">civil</a>
+	<a href="">power</a>
+</nav>
+<h1>The section element</h1>
+
+<section>
+  <h2>WWF History</h2>
+  <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+</section>
+
+<section>
+  <h2>WWF's Symbol</h2>
+  <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+</section>
+<h1>the summary element</h1>
+<details>
+	<summary>lorem</summary>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatum, saepe optio voluptatibus neque sequi veritatis! Saepe repellat dolorum omnis perspiciatis architecto sapiente in officiis quidem ducimus. Facere, dicta veniam!</p>
+</details>
+<h1>the time element</h1>
+<p>our school open from <time>10:00am</time> to <time>4:00pm</time></p>
+</div>
+<!--non- semantic element-->
+
+<div class="last_section">
+<div class="section"><h1>the non semantic element</h1></div><hr>
+<h1>the div element</h1>
+  <div class="header"
+        <h1>My blog post</h1>
+        <p>An example using divs with classes instead of the new elements.</p>
+      </div>
+ <h1>the span element</h1>
+ <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque aliquam <span>i love coding</span>suscipit facilis voluptatibus molestiae ut tenetur, assumenda tempora animi, quas.</p>
+ <h1>the footer element</h1>
+ </div>
+
+<footer>
+	 <div class="section"><h1>the footer section</h1></div><hr><br>
+	<p>this page design by @sourov</p><br>
+	<a href="https://mail.google.com/mail/u/0/#inbox">sourovsazzad44@gmail.com</a>
+
+</footer>
+ 
+</body>
+</html>
+
